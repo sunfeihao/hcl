@@ -80,7 +80,7 @@
   
   d3.select(".xAxis")
   .append("text")
-  .text("Sales")
+  .text("spending")
   .attr("x",width/2)
   .attr("y",margin.bottom * 0.7)
   .style("font-size","18px")
@@ -88,7 +88,7 @@
   
   
   d3.select(".yAxis")
-  .append("text")
+  .append("SAT Scores")
   .text("Revenue")
   .style("transform","rotate(270deg)")
   .attr("x",height/2 * -1)
@@ -102,11 +102,11 @@
   .attr("class","circle-g")
   .attr("transform",`translate(${margin.left},${margin.top})`);
   
-//   const color={
-//     "2018":"red",
-//     "2019":"green",
-//     "2020":"orange"
-//   }
+  const color={
+    "2018":"red",
+    "2019":"green",
+    "2020":"orange"
+  }
   
   const div=d3.select(".tooltip");
   
