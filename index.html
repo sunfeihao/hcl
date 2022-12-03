@@ -75,7 +75,7 @@
   
   d3.select(".yAxis")
   .append("g")
-  .call(yAxis.ticks(5).tickFormat(d=>'$ '+d))
+  .call(yAxis.ticks(5).tickFormat(d=>+d))
    .selectAll("text")
   .style("font-size","14px");
   
