@@ -67,7 +67,7 @@
   const height=svgHeight-(margin.top+margin.bottom);
   
   console.log("Data:",data);
-  const xDomain=d3.extent(data.map(d=>d.sales));
+  const xDomain=d3.extent(data.map(d=>d.spending));
   const xRange=[0,width];
   const xScale=d3.scaleLinear()
   .domain(xDomain)
@@ -75,7 +75,7 @@
   
 
   
-  const yDomain=d3.extent(data.map(d=>d.revenue));
+  const yDomain=d3.extent(data.map(d=>d.scores));
   const yRange=[height,0];
   const yScale=d3.scaleLinear()
   .domain(yDomain)
@@ -110,7 +110,7 @@
   
   d3.select(".xAxis")
   .append("text")
-  .text("Sales")
+  .text("spending")
   .attr("x",width/2)
   .attr("y",margin.bottom * 0.7)
   .style("font-size","18px")
@@ -119,7 +119,7 @@
   
   d3.select(".yAxis")
   .append("text")
-  .text("Revenue")
+  .text("scores")
   .style("transform","rotate(270deg)")
   .attr("x",height/2 * -1)
   .attr("y",margin.left * 0.6 * -1)
@@ -146,8 +146,8 @@
   .enter()
   .append("circle")
   .attr("class","circle")
-  .attr("cx",d=>xScale(d.sales))
-  .attr("cy",d=>yScale(d.revenue))
+  .attr("cx",d=>xScale(d.spending))
+  .attr("cy",d=>yScale(d.scores))
   .attr("r",5)
   .style("fill",d=>color[d3.timeFormat("%Y")(new Date(d.date))])
   .on("mouseover",function(d){
@@ -157,8 +157,8 @@
     
     div.html(""+d3.timeFormat("%Y")(new Date(d.date))+"<br/>"+
     "Product:"+d.product+"<br/>"+
-    "Sales: $ "+d.sales+"<br/>"+
-    "Revenue: $ "+d.revenue+"<br/>");
+    "spending: $ "+d.spending+"<br/>"+
+    "scores: $ "+d.scores+"<br/>");
     
     div.style("left",(d3.event.pageX+10) +"px")
     .style("top",(d3.event.pageY-30) +"px")
