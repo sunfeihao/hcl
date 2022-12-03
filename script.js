@@ -1,42 +1,42 @@
 const data=[
   {
     "date": "2018-12-31",
-    "product": "Product A",
+    "product": "Alabama",
     "investment": 14914,
-    "scores": 17151.1,
-    "spending": 2237.1,
+    "scores": 1143,
+    "spending": 10116.28614,
     "revenueper": 15
   },
   {
     "date": "2019-12-31",
-    "product": "Product A",
+    "product": "California",
     "investment": 8452,
-    "scores": 10226.92,
-    "spending": 1774.92,
+    "scores": 1065,
+    "spending": 14053.17631,
     "revenueper": 21
   },
   {
     "date": "2020-12-31",
-    "product": "Product A",
+    "product": "Florida",
     "investment": 6114,
-    "scores": 7275.66,
-    "spending": 1161.66,
+    "scores": 999,
+    "spending": 9936.722694,
     "revenueper": 19
   },
   {
     "date": "2018-12-31",
-    "product": "Product B",
+    "product": "Maryland",
     "investment": 14617,
-    "scores": 17686.57,
-    "spending": 3069.57,
+    "scores": 1058,
+    "spending": 	14643.81636,
     "revenueper": 21
   },
   {
     "date": "2019-12-31",
-    "product": "Product B",
+    "product": "Massachusetts",
     "investment": 15029,
-    "scores": 15479.87,
-    "spending": 450.87,
+    "scores": 1120,
+    "spending": 18268.60485,
     "revenueper": 3
   },
   {
