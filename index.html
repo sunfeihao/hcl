@@ -37,7 +37,7 @@
   const height=svgHeight-(margin.top+margin.bottom);
   
   console.log("Data:",data);
-  const xDomain=d3.extent(data.map(d=>d.sales));
+  const xDomain=d3.extent(data.map(d=>d.spending));
   const xRange=[0,width];
   const xScale=d3.scaleLinear()
   .domain(xDomain)
@@ -45,7 +45,7 @@
   
 
   
-  const yDomain=d3.extent(data.map(d=>d.revenue));
+  const yDomain=d3.extent(data.map(d=>d.scores));
   const yRange=[height,0];
   const yScale=d3.scaleLinear()
   .domain(yDomain)
