@@ -10,7 +10,7 @@ const data=[
   {
     "date": "2019-12-31",
     "product": "California",
-    "Collegegrad %": 33.9,
+    "grad%": 33.9,
     "scores": 1065,
     "spending": 14053.17631,
     "revenueper": 21
