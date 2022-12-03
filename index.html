@@ -9,13 +9,7 @@
 <body>
   <div class='tooltip'></div>
   <div class='legend'>
-    <div class='right-align'>
-      <div class='box' style='background:red'></div>
-      <div class='label'>2018</div>
-      <div class='box' style='background:green'></div>
-      <div class='label' >2019</div>
-      <div class='box' style='background:orange'></div>
-      <div class='label' >2020</div>
+ 
     </div>
   </div>
   <svg width="800" height="800"></svg>
@@ -126,7 +120,7 @@
     .style("opacity",0.9);
     
     div.html(""+d3.timeFormat("%Y")(new Date(d.date))+"<br/>"+
-    "Product:"+d.product+"<br/>"+
+    "state:"+d.product+"<br/>"+
     "spending: $ "+d.spending+"<br/>"+
     "scores: $ "+d.scores+"<br/>");
     
