@@ -120,13 +120,13 @@
   .attr("cx",d=>xScale(d.spending))
   .attr("cy",d=>yScale(d.scores))
   .attr("r",5)
-  .style("fill",d=>color[d3.timeFormat("%Y")(new Date(d.location))])
+  .style("fill",d=>color[d3.timeFormat("%Y")(new Date(d.date))])
   .on("mouseover",function(d){
     div.transition()
     .duration(200)
     .style("opacity",0.9);
     
-    div.html(""+d3.timeFormat("%Y")(new Date(d.location))+"<br/>"+
+    div.html(""+d3.timeFormat("%Y")(new Date(d.date))+"<br/>"+
     "state:"+d.state+"<br/>"+
     "grad%:"+d.gradpercent+"<br/>"+
     "spending: $ "+d.spending+"<br/>"+
