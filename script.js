@@ -8,7 +8,7 @@ const data=[
     "revenueper": 15
   },
   {
-    "date": "2019-12-31",
+    "date": "2018-12-31",
     "state": "California",
     "gradpercent": 33.9,
     "scores": 1065,
@@ -48,7 +48,7 @@ const data=[
     "revenueper": 16
   },
   {
-    "date": "2019-12-31",
+    "date": "2020-12-31",
     "state": "Minnesota",
     "gradpercent": 	36.1,
     "scores": 1284,
@@ -80,7 +80,7 @@ const data=[
     "revenueper": 12
   },
   {
-    "date": "2019-12-31",
+    "date": "2020-12-31",
     "state": "Oklahoma",
     "gradpercent": 25.5,
     "scores": 963,
