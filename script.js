@@ -2,7 +2,7 @@ const data=[
   {
     "date": "2018-12-31",
     "state": "Alabama",
-    "grad%": 25.5,
+    "gradpercent": 25.5,
     "scores": 1143,
     "spending": 10116.28614,
     "revenueper": 15
@@ -10,7 +10,7 @@ const data=[
   {
     "date": "2019-12-31",
     "state": "California",
-    "grad%": 33.9,
+    "gradpercent": 33.9,
     "scores": 1065,
     "spending": 14053.17631,
     "revenueper": 21
@@ -18,7 +18,7 @@ const data=[
   {
     "date": "2020-12-31",
     "state": "Florida",
-    "grad%": 29.9,
+    "gradpercent": 29.9,
     "scores": 999,
     "spending": 9936.722694,
     "revenueper": 19
@@ -26,7 +26,7 @@ const data=[
   {
     "date": "2018-12-31",
     "state": "Maryland",
-    "grad%": 40.2,
+    "gradpercent": 40.2,
     "scores": 1058,
     "spending": 	14643.81636,
     "revenueper": 21
@@ -34,7 +34,7 @@ const data=[
   {
     "date": "2019-12-31",
     "state": "Massachusetts",
-    "grad%": 43.7,
+    "gradpercent": 43.7,
     "scores": 1120,
     "spending": 18268.60485,
     "revenueper": 3
@@ -42,7 +42,7 @@ const data=[
   {
     "date": "2020-12-31",
     "state": "Michigan",
-    "grad%": 29.1,
+    "gradpercent": 29.1,
     "scores": 1003,
     "spending": 	13071.80858,
     "revenueper": 16
@@ -50,7 +50,7 @@ const data=[
   {
     "date": "2018-12-31",
     "state": "Minnesota",
-    "grad%": 	36.1,
+    "gradpercent": 	36.1,
     "scores": 1284,
     "spending": 13603.18324,
     "revenueper": 16
@@ -58,7 +58,7 @@ const data=[
   {
     "date": "2019-12-31",
     "state": "New Jersey",
-    "grad%": 39.7,
+    "gradpercent": 39.7,
     "scores": 1090,
     "spending": 	20629.6443,
     "revenueper": 25
@@ -66,7 +66,7 @@ const data=[
   {
     "date": "2020-12-31",
     "state": "New York",
-    "grad%": 36.6,
+    "gradpercent": 36.6,
     "scores": 1064,
     "spending": 25520.36024,
     "revenueper": 4
@@ -74,7 +74,7 @@ const data=[
   {
     "date": "2018-12-31",
     "state": "Ohio",
-    "grad%": 28.3,
+    "gradpercent": 28.3,
     "scores": 	1097,
     "spending": 13804.54123,
     "revenueper": 12
@@ -82,7 +82,7 @@ const data=[
   {
     "date": "2019-12-31",
     "state": "Oklahoma",
-    "grad%": 25.5,
+    "gradpercent": 25.5,
     "scores": 963,
     "spending": 9512.041651,
     "revenueper": 13
@@ -90,7 +90,7 @@ const data=[
   {
     "date": "2020-12-31",
     "state": "Pennsylvania",
-    "grad%": 	31.4,
+    "gradpercent": 	31.4,
     "scores": 1082,
     "spending": 17141.64616,
     "revenueper": 3
@@ -98,7 +98,7 @@ const data=[
   {
     "date": "2018-12-31",
     "state": "Washington",
-    "grad%": 36,
+    "gradpercent": 36,
     "scores": 1074,
     "spending": 	14555.71182,
     "revenueper": 22
@@ -106,7 +106,7 @@ const data=[
   {
     "date": "2019-12-31",
     "state": "West Virginia",
-    "grad%": 	20.6,
+    "gradpercent": 	20.6,
     "scores": 	943,
     "spending": 10233.78315,
     "revenueper": 3
@@ -114,7 +114,7 @@ const data=[
 //   {
 //     "date": "2020-12-31",
 //     "state": "state E",
-//     "grad%": 2485,
+//     "gradpercent": 2485,
 //     "scores": 2957.15,
 //     "spending": 472.15,
 //     "revenueper": 19
@@ -122,7 +122,7 @@ const data=[
 //   {
 //     "date": "2018-12-31",
 //     "state": "state F",
-//     "grad%": 1990,
+//     "gradpercent": 1990,
 //     "scores": 2407.9,
 //     "spending": 417.9,
 //     "revenueper": 21
@@ -130,7 +130,7 @@ const data=[
 //   {
 //     "date": "2019-12-31",
 //     "state": "state F",
-//     "grad%": 8034,
+//     "gradpercent": 8034,
 //     "scores": 9399.78,
 //     "spending": 1365.78,
 //     "revenueper": 17
@@ -138,7 +138,7 @@ const data=[
 //   {
 //     "date": "2020-12-31",
 //     "state": "state F",
-//     "grad%": 13254,
+//     "gradpercent": 13254,
 //     "scores": 14314.32,
 //     "spending": 1060.32,
 //     "revenueper": 8
@@ -146,7 +146,7 @@ const data=[
 //   {
 //     "date": "2018-12-31",
 //     "state": "state G",
-//     "grad%": 18545,
+//     "gradpercent": 18545,
 //     "scores": 21141.3,
 //     "spending": 2596.3,
 //     "revenueper": 14
@@ -154,7 +154,7 @@ const data=[
 //   {
 //     "date": "2019-12-31",
 //     "state": "state G",
-//     "grad%": 6168,
+//     "gradpercent": 6168,
 //     "scores": 7524.96,
 //     "spending": 1356.96,
 //     "revenueper": 22
@@ -162,7 +162,7 @@ const data=[
 //   {
 //     "date": "2020-12-31",
 //     "state": "state G",
-//     "grad%": 12382,
+//     "gradpercent": 12382,
 //     "scores": 14610.76,
 //     "spending": 2228.76,
 //     "revenueper": 18
@@ -170,7 +170,7 @@ const data=[
 //   {
 //     "date": "2018-12-31",
 //     "state": "state H",
-//     "grad%": 12498,
+//     "gradpercent": 12498,
 //     "scores": 14622.66,
 //     "spending": 2124.66,
 //     "revenueper": 17
@@ -178,7 +178,7 @@ const data=[
 //   {
 //     "date": "2019-12-31",
 //     "state": "state H",
-//     "grad%": 8214,
+//     "gradpercent": 8214,
 //     "scores": 8953.26,
 //     "spending": 739.26,
 //     "revenueper": 9
@@ -186,7 +186,7 @@ const data=[
 //   {
 //     "date": "2020-12-31",
 //     "state": "state H",
-//     "grad%": 3361,
+//     "gradpercent": 3361,
 //     "scores": 3865.15,
 //     "spending": 504.15,
 //     "revenueper": 15
@@ -194,7 +194,7 @@ const data=[
 //   {
 //     "date": "2018-12-31",
 //     "state": "state I",
-//     "grad%": 16152,
+//     "gradpercent": 16152,
 //     "scores": 18413.28,
 //     "spending": 2261.28,
 //     "revenueper": 14
@@ -202,7 +202,7 @@ const data=[
 //   {
 //     "date": "2019-12-31",
 //     "state": "state I",
-//     "grad%": 2303,
+//     "gradpercent": 2303,
 //     "scores": 2349.06,
 //     "spending": 46.06,
 //     "revenueper": 2
@@ -210,7 +210,7 @@ const data=[
 //   {
 //     "date": "2020-12-31",
 //     "state": "state I",
-//     "grad%": 14806,
+//     "gradpercent": 14806,
 //     "scores": 18063.32,
 //     "spending": 3257.32,
 //     "revenueper": 22
