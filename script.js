@@ -1,6 +1,6 @@
 const data=[
   {
-    "date": "2019",
+    "date": "2019-12-31",
     "state": "Alabama",
     "gradpercent": 25.5,
     "scores": 1143,
