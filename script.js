@@ -12,7 +12,7 @@
       "spending": 10116.28614
     },
     {
-      "date": "2019-12-31",
+      "date": "2018-12-31",
       "state": "Alaska",
       "avgTeacherStartingSalary": 48469,
       "scores": 1097,
@@ -24,7 +24,7 @@
       "spending": 18313.42176
     },
     { 
-    "date": "2019-12-31",
+    "date": "2020-12-31",
       "state": "Arizona",
       "avgTeacherStartingSalary": 39057,
       "scores": 1134,
@@ -36,7 +36,7 @@
       "spending": 8766.402019
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Arkansas",
       "avgTeacherStartingSalary": 35201,
       "scores": 1141,
@@ -48,7 +48,7 @@
       "spending": 10344.90046
     },
     {
-        "date": "2019-12-31",
+        "date": "2018-12-31",
       "state": "California",
       "avgTeacherStartingSalary": 49303,
       "scores": 1065,
@@ -60,7 +60,7 @@
       "spending": 14053.17631
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Colorado",
       "avgTeacherStartingSalary": 35292,
       "scores": 1024,
@@ -131,7 +131,7 @@
       "spending": "'NULL'"
     },*/
     {
-        "date": "2019-12-31",
+        "date": "2018-12-31",
       "state": "Idaho",
       "avgTeacherStartingSalary": 38015,
       "scores": 993,
@@ -166,7 +166,7 @@
       "spending": "'NULL'"
     },*/
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Iowa",
       "avgTeacherStartingSalary": 37908,
       "scores": 1244,
@@ -178,7 +178,7 @@
       "spending": 11958.12875
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Kansas",
       "avgTeacherStartingSalary": 38314,
       "scores": 1241,
@@ -260,7 +260,7 @@
       "spending": 13071.80858
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Minnesota",
       "avgTeacherStartingSalary": 40310,
       "scores": 1284,
@@ -272,7 +272,7 @@
       "spending": 13603.18324
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Mississippi",
       "avgTeacherStartingSalary": 36543,
       "scores": 1237,
@@ -284,7 +284,7 @@
       "spending": 9653.974656
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Missouri",
       "avgTeacherStartingSalary": 32970,
       "scores": 1236,
@@ -296,7 +296,7 @@
       "spending": 11249.37626
     },
     {
-        "date": "2019-12-31",
+        "date": "2018-12-31",
       "state": "Montana",
       "avgTeacherStartingSalary": 32871,
       "scores": 1199,
@@ -308,7 +308,7 @@
       "spending": 12105.35386
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Nebraska",
       "avgTeacherStartingSalary": 35820,
       "scores": 1260,
@@ -364,8 +364,9 @@
       "highschoolGradRate": 75,
       "gradpercent": 27.3,
       "spending": "'NULL'"
-    },
+    },*/
     {
+     "date": "2019-12-31",
       "state": "New York",
       "avgTeacherStartingSalary": 47181,
       "scores": 1064,
@@ -375,7 +376,7 @@
       "highschoolGradRate": 83,
       "gradpercent": 36.6,
       "spending": 25520.36024
-    },*/
+    },
     {
         "date": "2019-12-31",
       "state": "North Carolina",
@@ -412,7 +413,7 @@
       "spending": 13804.54123
     },
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Oklahoma",
       "avgTeacherStartingSalary": 37992,
       "scores": 963,
@@ -539,7 +540,7 @@
       "spending": 12904.51852
     },
     {
-        "date": "2019-12-31",
+        "date": "2018-12-31",
       "state": "Washington",
       "avgTeacherStartingSalary": 49113,
       "scores": 1074,
@@ -573,7 +574,7 @@
       "spending": "'NULL'"
     },*/
     {
-        "date": "2019-12-31",
+        "date": "2020-12-31",
       "state": "Wyoming",
       "avgTeacherStartingSalary": 46558,
       "scores": 1238,
